@@ -37,6 +37,13 @@ public class Cat {
 			System.out.println("my name is " + name);
 	}
 
+	public int getLives() {
+		
+		return lives;
+		
+	}
+	
+	
 	void kill() {
 		lives--;
 		if (lives > 0)
